@@ -1,0 +1,23 @@
+{
+  "name": "gms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADRIELYNOVAIS/gms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADRIELYNOVAIS/gms/issues"
+  },
+  "homepage": "https://github.com/ADRIELYNOVAIS/gms#readme",
+  "dependencies": {
+    "cypress": "^14.3.2"
+  }
+}
