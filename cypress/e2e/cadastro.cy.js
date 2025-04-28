@@ -4,6 +4,10 @@ describe('US-012-Funcionalidade: cadastro de membros', () => {
   beforeEach(() =>{
     cy.visit('/')
   })
+
+  afterEach(() =>{
+    cy.screenshot()
+  })
   
   it('Deve fazer o cadastro de campos obrigatórios', () => {
     var email = `driu${Date.now()}@teste.com`

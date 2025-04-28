@@ -9,7 +9,7 @@ describe('US-OO : Funcionalidade: Busca de filmes', () => {
       cy.screenshot()
   });
 
-  it('Deve buscar filmes com sucesso', () => {
+  it('Deve buscar filmes com sucdcesso', () => {
       cy.get('#search-input').type('Matrix')
       cy.get('#search-button').click()
       cy.get('#results-section').should('contain', 'Matrix')
